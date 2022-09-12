@@ -1,0 +1,163 @@
+[05:27:31] [main/INFO] [STDOUT/]: Update in check...
+[05:27:31] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[05:27:32] [main/INFO] [STDOUT/]: No update found, latest version: (1.16.5-1078) current version: (1.16.5-1078)
+[05:27:32] [main/INFO] [STDOUT/]: You need to accept the eula to launch your server. Type true to continue.
+[05:28:35] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1078, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
+[05:28:35] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.2 by Oracle Corporation
+[05:28:35] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[05:28:35] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/winga/Downloads/server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[05:28:36] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[05:28:36] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[05:28:36] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[05:28:36] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[05:28:39] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[05:28:39] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[05:28:40] [modloading-worker-2/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[05:28:41] [main/ERROR] [net.minecraft.server.dedicated.PropertyManager/]: Failed to load properties from file: server.properties
+[05:28:41] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:28:41] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/bukkit, loading it automatically
+[05:28:41] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1078-universal.jar, bukkit
+[05:28:42] [Worker-Main-11/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
+[05:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[05:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05:28:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[05:28:43] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[05:28:43] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1078 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
+[05:28:43] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[05:28:43] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[05:28:43] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[05:28:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05:28:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05:28:48] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05:28:48] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05:28:48] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[05:28:49] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 8%
+[05:28:49] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 16%
+[05:28:50] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
+[05:28:50] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[05:28:51] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 39%
+[05:28:51] [Netty Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05:28:51] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
+[05:28:52] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 54%
+[05:28:53] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 77%
+[05:28:53] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[05:28:54] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[05:28:54] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6,621 ms
+[05:28:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.485s)! For help, type "help"
+[05:28:54] [Server thread/INFO] [Minecraft/]: Timings Reset
+[05:31:17] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player gamezaaah is 8ae42e1f-25e5-4d14-807c-a1d995011931
+[05:31:17] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gamezaaah[/127.0.0.1:56355] logged in with entity id 310 at (-181.5, 64, -153.5)
+[05:33:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gamezaaah lost connection: Disconnected
+[05:33:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gamezaaah left the game
+[05:33:52] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[05:33:54] [Server thread/INFO] [/]: --------- Help: Index ---------------------------
+[05:33:54] [Server thread/INFO] [/]: Use /help [n] to get page n of help.
+[05:33:54] [Server thread/INFO] [/]: Aliases: Lists command aliases
+[05:33:54] [Server thread/INFO] [/]: Bukkit: All commands for Bukkit
+[05:33:54] [Server thread/INFO] [/]: Minecraft: All commands for Minecraft
+[05:33:54] [Server thread/INFO] [/]: /advancement: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /attribute: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /backupworld: Create a backup of your world.
+[05:33:54] [Server thread/INFO] [/]: /ban: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /ban-ip: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /banlist: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /bossbar: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /clear: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /clone: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /config: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /data: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /datapack: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /debug: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /defaultgamemode: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /deop: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /difficulty: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /downloadfile: Download a file from url directly in the choosed folder.
+[05:33:54] [Server thread/INFO] [/]: /dump: Universal Dump, which will print the information you need locally!
+[05:33:54] [Server thread/INFO] [/]: /effect: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /enchant: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /execute: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /experience: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /fill: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /forceload: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /forge: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /function: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /gamemode: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /gamerule: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /getpluginlist: Paste the list of your plugins on hastebin and get the link.
+[05:33:54] [Server thread/INFO] [/]: /give: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /help: Shows the help menu
+[05:33:54] [Server thread/INFO] [/]: /kick: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /kill: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /list: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /locate: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /locatebiome: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /loot: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /me: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /minecraft:help: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /minecraft:reload: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /mohist: Mohist related commands
+[05:33:54] [Server thread/INFO] [/]: /msg: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /op: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /pardon: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /pardon-ip: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /particle: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /playsound: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /plugin: Plugin manager
+[05:33:54] [Server thread/INFO] [/]: /plugins: Gets a list of plugins running on the server
+[05:33:54] [Server thread/INFO] [/]: /recipe: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /reload: Reloads the server configuration and plugins
+[05:33:54] [Server thread/INFO] [/]: /replaceitem: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /restart: Restarts the server
+[05:33:54] [Server thread/INFO] [/]: /save-all: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /save-off: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /save-on: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /say: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /schedule: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /scoreboard: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /seed: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /setblock: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /setidletimeout: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /setworldspawn: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /spawnpoint: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /spectate: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /spigot: Spigot related commands
+[05:33:54] [Server thread/INFO] [/]: /spreadplayers: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /stop: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /stopsound: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /summon: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /tag: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /team: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /teammsg: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /teleport: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /tell: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /tellraw: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /time: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /timings: Manages Spigot Timings data to see performance of the server.
+[05:33:54] [Server thread/INFO] [/]: /title: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /tm: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /tp: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /tps: Gets the current ticks per second for the server
+[05:33:54] [Server thread/INFO] [/]: /trigger: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /updatemohist: Update Mohist to the latest build.
+[05:33:54] [Server thread/INFO] [/]: /version: Gets the version of this server including any plugins in use
+[05:33:54] [Server thread/INFO] [/]: /w: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /weather: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /whitelist: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /whitelistmods: Command to update, enable or disable the mods whitelist.
+[05:33:54] [Server thread/INFO] [/]: /world: 
+[05:33:54] [Server thread/INFO] [/]: /worldborder: A Mojang provided command.
+[05:33:54] [Server thread/INFO] [/]: /xp: A Mojang provided command.
+[05:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:56:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[05:56:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[05:56:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:56:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:56:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:56:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
