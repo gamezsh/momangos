@@ -1,0 +1,43 @@
+settings:
+  animated: false
+  mode: NORMAL
+  scoreboard-normal-update: 20
+  scoreboard-world-update: 20
+  scoreboard:
+    title: '&x&0&8&4&c&f&b&lM&x&1&d&6&1&f&b&lo&x&3&1&7&6&f&c&lm&x&4&6&8&b&f&c&li&x&5&b&a&0&f&c&lS&x&6&f&b&4&f&c&lt&x&8&4&c&9&f&d&la&x&9&8&d&e&f&d&lt&x&a&d&f&3&f&d&ls'
+    lines:
+      - '&8&m+-------------------+'
+      - ''
+      - '&a&l▼ &3Datos:'
+      - '&f● &aNick: &b%player_name%'
+      - '&f● &aRango: &b%vault_groupprefix%'
+      - '&f● &aBalance: &e%vault_eco_balance_formatted%'
+      - '&f● &aJugadores Eliminados: &e%statistic_player_kills%'
+      - '&f● &aMobs Eliminados: &e%statistic_mob_kills%'
+      - '&f● &aHoras Jugadas: &e%statistic_time_played:hours%'
+      - ''
+      - '&a&l▼ &3Servidor:'
+      #- '&f● &7Lobby: &b#1'
+      - '&f● &aPing: &b%player_ping%'
+      - '&f● &aJugadores: &b%playerlist_online,perm,yes,amount,staff.admin%'
+      - '&f● &aTPS: &b%server_tps_1%'
+      - '&8&m+-------------------+'
+      - '         &x&b&1&1&3&f&b&l&nM&x&b&7&2&a&f&b&l&nO&x&b&d&4&2&f&b&l&nM&x&c&4&5&9&f&b&l&nI&x&c&a&7&1&f&b&l&nC&x&d&0&8&8&f&c&l&nH&x&d&6&9&f&f&c&l&nI&x&d&c&b&7&f&c&l&nL&x&e&3&c&e&f&c&l&nA&x&e&9&e&6&f&c&l&nN&x&e&f&f&d&f&c&l&nD'
+scoreboard-world:
+  'world':
+    title: '&b&lSternal&f&lBoard &d&lWORLD'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lWORLD'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+
