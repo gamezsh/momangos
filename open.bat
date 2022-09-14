@@ -1,1 +1,0 @@
-java -Xmx2048M -Xms1024M -jar mohist-1.16.5-1078-server.jar nogui
