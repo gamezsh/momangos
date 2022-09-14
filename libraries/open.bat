@@ -1,0 +1,1 @@
+java -Xmx2024M -Xms2024M -jar minecraft_server.1.16.5.jar nogui
